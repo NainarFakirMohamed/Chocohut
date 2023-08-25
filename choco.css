@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-weight: 500;
+}
+li{
+    padding: 5px;
+}
+.nav-item{
+    border: 2px solid transparent;
+}
+.nav-item:hover{
+    border-bottom: 2px solid black;
+    transition: .1s;
+}
+li .nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    color: brown;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home h1{
+    font-weight: 300;
+    color: brown;
+}
+#home h1 span{
+    color: rgb(170, 134, 43);
+    font-weight: 400;
+}
+#home,#About p{
+    font-size: 20px;
+}
+#About h2{
+    color: rgb(156, 123, 37);
+    font-weight: 500;
+}
+#About,#Service h1{
+    font-weight: 300;
+    color: brown;
+}
+#About img{
+    border-radius: 50px;
+}
+#nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgb(182, 170, 170);
+                -1px -1px 5px rgb(182, 170, 170);
+    border-radius: 15px;
+    
+
+}
+
